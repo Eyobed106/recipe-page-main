@@ -4,3 +4,52 @@ body {
   box-sizing: border-box;
   background-color: hsl(30, 54%, 90%);
 }
+
+.main-wrapper {
+  background-color: hsl(0, 0%, 100%);
+  width: 500px;
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+
+.main-wrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main-wrapper h1 {
+  font-family: "Young Serif", arial, sans-serif;
+  font-weight: 400;
+}
+
+.main-wrapper p.sub-head {
+  font-family: "Outfit", arial, sans-serif;
+  font-size: 0.75em;
+}
+
+.preparation-time-wrapper {
+  background-color: hsl(330, 100%, 98%);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.preparation-time-wrapper ul {
+  margin: 10px;
+}
+
+.preparation-time-wrapper ul li {
+  font-size: 12px;
+  font-family: "Outfit";
+  margin: 10px;
+}
+.preparation-time-wrapper ul li span {
+  font-weight: bold;
+}
+.preparation-time-wrapper .info-preparation-time {
+  margin: 0;
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 0.938em;
+}
