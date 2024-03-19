@@ -37,6 +37,7 @@ body {
 
 .preparation-time-wrapper ul {
   margin: 10px 0;
+  padding: 0px 0px 0px 20px;
 }
 
 .preparation-time-wrapper ul li,
@@ -44,6 +45,13 @@ body {
   font-size: 12px;
   font-family: "Outfit";
   margin: 10px 0;
+  padding-left: 7px;
+}
+
+li::marker,
+ol li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
 }
 
 .preparation-time-wrapper ul li span,
@@ -57,6 +65,11 @@ body {
   font-family: "Outfit";
   font-weight: 600;
   font-size: 0.938em;
+}
+
+.ingredients-wrapper ul,
+.instructions-wrapper ol {
+  padding: 0px 0px 0px 15px;
 }
 
 .ingredients-wrapper ul li {
@@ -82,10 +95,36 @@ h2 {
 .fat {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 
-.nutrition-wrapper p.value {
+.calories p.name,
+.carbs p.name,
+.protein p.name,
+.fat p.name {
+  margin-left: 30px;
+}
+
+.nutrition-wrapper p.value1 {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+.nutrition-wrapper p.value2 {
+  margin-left: 165px;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.nutrition-wrapper p.value3,
+.nutrition-wrapper p.value4 {
+  margin-left: 160px;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.nutrition-wrapper p.value4 {
+  margin-left: 180px;
   color: hsl(14, 45%, 36%);
   font-weight: bold;
 }
